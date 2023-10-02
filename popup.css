@@ -1,0 +1,27 @@
+
+
+/* Add clock styles */
+#custom-clock {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  #custom-clock span {
+    margin: 0 5px;
+  }
+  
+  #custom-clock::before {
+    content: '\1F550'; /* Unicode character for a clock icon */
+    font-size: 30px;
+    margin-right: 5px;
+  }
+  
+  /* Center clock display */
+  #customizable-timer-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  

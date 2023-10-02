@@ -1,0 +1,35 @@
+
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <title>Codeforces Timer</title>
+      <script src="popup.js"></script>
+      <link rel="stylesheet" type="text/css" href="popup.css">
+    </head>
+    <body>
+      <h1>Codeforces Timer</h1>
+      <form action="">
+        <h2>Enter your Rating</h2>
+        <input type="number" name="rating" id="rating">
+        <h2>Enter Question Rating</h2>
+        <input type="number" name="question-rating" id="question-rating">
+      </form>
+      <div id="timer">
+        <p id="recommended-timer">Recommended Time: --:--</p>
+        <div id="customizable-timer-display">
+          <div id="custom-clock">
+            <span id="custom-minutes">00</span>:<span id="custom-seconds">00</span>
+          </div>
+          <button id="increase-minutes">+</button>
+          <button id="decrease-minutes">-</button>
+          <button id="increase-seconds">+</button>
+          <button id="decrease-seconds">-</button>
+        </div>
+        <!-- <button id="set-custom-timer"></button> -->
+        <button id="start">Start</button>
+        <button id="pause">Pause</button>
+        <button id="reset">Reset</button>
+      </div>
+    </body>
+  </html>
